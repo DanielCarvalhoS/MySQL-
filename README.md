@@ -3,12 +3,14 @@
 Anotações online do MySQL.
 Aula 30/07 
 Passo a passo base do MySQL e suas utilidades. Paramos na Pag 8 tipos de Dados.
+
 -----
 
 Banco de Dados.
 Aula 13/08
 
-`
+
+```
 create database Cogitare_bd;
 CREATE database Exerjd_db;
 drop database Cogitare_bd;
