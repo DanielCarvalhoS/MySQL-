@@ -10,7 +10,7 @@ Banco de Dados.
 Aula 13/08
 
 
-```
+``` 
 create database Cogitare_bd;
 CREATE database Exerjd_db;
 drop database Cogitare_bd;
@@ -50,4 +50,36 @@ alter table tbaluno2 modify datanasc date not null; /* Modify simplesmente modif
 
 truncate table aluno_tb; /* Uma espécie de "delete". A tabela continua existindo mas ele apaga permanentemente os registros de uma tabela. Isso pode ser utilizado quando existem muitos "Gaps" em sua tabela.*/
 `
-paramos no comandos DDL 
+paramos no comandos DDL
+
+```
+INDEX
+
+Quantidade de Index depende de quantas consultas você possue em sua tabela. Atentar-se a qual tipo de tabela está usando pois modificações constantes podem acabar atrapalhando na velocidade do seu index.
+Index é um objeto.
+Se eu quero nomear a restrição, é necessário colocar o `Constraint`, facilitando a manipulação da mesma.
+
+---
+
+Funções Data & Hora
+
+- Professor gostaria que usasse somente o CURRENT_TIMESTAMP(); & CURRENT_USER();
+Este dois são os mais recorrentes
+
+---
+
+AUTO_INCREMENT
+
+-Função que efetua sozinho certas ações. Por exemplo: Numeração de linhas.
+Se torna eficaz caso for sequencial, afinal não precisa de edições trabalhosas.
+
+---
+
+RENAME
+
+- Dificil de ser efetuado em um banco real, se torna um pouco complicado colocar uma nova tabela em algum banco que está sendo constantemente usado.
+Para renomear colunas se usa Alter table com a cláusula `RENAME COLUMN`
+
+---
+
+`Pagina 23 DML`
