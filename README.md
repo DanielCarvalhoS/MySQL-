@@ -70,7 +70,7 @@ Este dois são os mais recorrentes
 
 AUTO_INCREMENT
 
--Função que efetua sozinho certas ações. Por exemplo: Numeração de linhas.
+- Função que efetua sozinho certas ações. Por exemplo: Numeração de linhas.
 Se torna eficaz caso for sequencial, afinal não precisa de edições trabalhosas.
 
 ---
